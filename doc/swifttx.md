@@ -1,21 +1,21 @@
-##SwiftX Technical Information
+## SwiftX Technical Information
 
 SwiftX has been integrated into the Core Daemon in two ways:
 * "push" notifications (ZMQ and `-swifttxnotify` cmd-line/config option);
 * RPC commands.
 
-####ZMQ
+#### ZMQ
 
 When a "Transaction Lock" occurs the hash of the related transaction is broadcasted through ZMQ using both the `zmqpubrawtxlock` and `zmqpubhashtxlock` channels.
 
 * `zmqpubrawtxlock`: publishes the raw transaction when locked via SwiftX
 * `zmqpubhashtxlock`: publishes the transaction hash when locked via SwiftX
 
-This mechanism has been integrated into Bitcore-Node-PIVX which allows for notification to be broadcast through Insight API in one of two ways:
-* WebSocket: [https://github.com/PIVX-Project/insight-api-pivx#web-socket-api](https://github.com/PIVX-Project/insight-api-pivx#web-socket-api) 
-* API: [https://github.com/PIVX-Project/insight-api-pivx#swifttx-transactions](https://github.com/PIVX-Project/insight-api-pivx#swifttx-transactions) 
+This mechanism has been integrated into Bitcore-Node-GenzyCoin which allows for notification to be broadcast through Insight API in one of two ways:
+* WebSocket: [https://github.com/bitpay/insight-api#web-socket-api](https://github.com/bitpay/insight-api#web-socket-api).
+* API: [https://github.com/bitpay/insight-api#api-http-endpoints](https://github.com/bitpay/insight-api#api-http-endpoints).
 
-####Command line option
+#### Command line option
 
 When a wallet SwiftX transaction is successfully locked a shell command provided in this option is executed (`%s` in `<cmd>` is replaced by TxID):
 
@@ -23,17 +23,17 @@ When a wallet SwiftX transaction is successfully locked a shell command provided
 -swifttxnotify=<cmd>
 ```
 
-####RPC
+#### RPC
 
 Details pertaining to an observed "Transaction Lock" can also be retrieved through RPC, it’s important however to understand the underlying mechanism.
 
-By default, the PIVX Core daemon will launch using the following constant:
+By default, the Genzy Coin Core daemon will launch using the following constant:
 
 ```
 static const int DEFAULT_SWIFTTX_DEPTH = 5;
 ```
 
-This value can be overridden by passing the following argument to the PIVX Core daemon:
+This value can be overridden by passing the following argument to the Genzy Coin Core daemon:
 
 ```
 -swifttxdepth=<n>

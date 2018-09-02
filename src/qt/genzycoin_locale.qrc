@@ -1,0 +1,36 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/genzycoin_bg.qm</file>
+        <file alias="ca">locale/genzycoin_ca.qm</file>
+        <file alias="cs">locale/genzycoin_cs.qm</file>
+        <file alias="da">locale/genzycoin_da.qm</file>
+        <file alias="de">locale/genzycoin_de.qm</file>
+        <file alias="en">locale/genzycoin_en.qm</file>
+        <file alias="en_US">locale/genzycoin_en_US.qm</file>
+        <file alias="eo">locale/genzycoin_eo.qm</file>
+        <file alias="es">locale/genzycoin_es.qm</file>
+        <file alias="es_ES">locale/genzycoin_es_ES.qm</file>
+        <file alias="fi">locale/genzycoin_fi.qm</file>
+        <file alias="fr_FR">locale/genzycoin_fr_FR.qm</file>
+        <file alias="hi_IN">locale/genzycoin_hi_IN.qm</file>
+        <file alias="hr">locale/genzycoin_hr.qm</file>
+        <file alias="hr_HR">locale/genzycoin_hr_HR.qm</file>
+        <file alias="it">locale/genzycoin_it.qm</file>
+        <file alias="ja">locale/genzycoin_ja.qm</file>
+        <file alias="ko_KR">locale/genzycoin_ko_KR.qm</file>
+        <file alias="lt_LT">locale/genzycoin_lt_LT.qm</file>
+        <file alias="nl">locale/genzycoin_nl.qm</file>
+        <file alias="pl">locale/genzycoin_pl.qm</file>
+        <file alias="pt">locale/genzycoin_pt.qm</file>
+        <file alias="pt_BR">locale/genzycoin_pt_BR.qm</file>
+        <file alias="ro_RO">locale/genzycoin_ro_RO.qm</file>
+        <file alias="ru">locale/genzycoin_ru.qm</file>
+        <file alias="sk">locale/genzycoin_sk.qm</file>
+        <file alias="sv">locale/genzycoin_sv.qm</file>
+        <file alias="tr">locale/genzycoin_tr.qm</file>
+        <file alias="uk">locale/genzycoin_uk.qm</file>
+        <file alias="vi">locale/genzycoin_vi.qm</file>
+        <file alias="zh_CN">locale/genzycoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/genzycoin_zh_TW.qm</file>
+    </qresource>
+</RCC>

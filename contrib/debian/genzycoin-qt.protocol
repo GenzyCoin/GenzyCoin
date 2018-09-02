@@ -1,0 +1,11 @@
+[Protocol]
+exec=genzycoin-qt '%u'
+protocol=genzycoin
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

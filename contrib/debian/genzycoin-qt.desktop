@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=GenzyCoin
+Comment=Genzy Coin P2P Cryptocurrency
+Comment[fr]=Genzy Cpin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Genzy Coin, eşten eşe kriptografik sanal para birimi
+Exec=genzycoin-qt %u
+Terminal=false
+Type=Application
+Icon=genzycoin128
+MimeType=x-scheme-handler/genzycoin;
+Categories=Office;Finance;
